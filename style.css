@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(298deg, rgb(255,127,13,255) 0%, rgb(255,101,24,255) 100%) no-repeat;
+  font-size: 18px;
+  font-family: "Patrick Hand", cursive;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  padding: 0 10vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  width: 50vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  letter-spacing: 2px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  width: 48px;
+  height: auto;
+}
+.menu img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#sectionOne {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 10vh;
+}
+#sectionOne h1 {
+  font-size: 26.5rem;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 14px;
+  width: 70vw;
+  padding-top: 13vh;
+  margin: 0 auto;
+  text-shadow: -6px -10px 8px rgba(0, 0, 0, 0.85);
+}
+
+#fanta {
+  position: absolute;
+  left: 34vw;
+  top: 30vh;
+  z-index: 1;
+  width: 32vw;
+}
+#orangeLeaf {
+  position: absolute;
+  left: 48vw;
+  top: 58vh;
+  z-index: 2;
+  width: 40vh;
+}
+#leafOne {
+  position: absolute;
+  left: 0;
+  top: -11vh;
+  width: 25vh;
+  z-index: 1;
+  transform: scaleX(-1);
+}
+#leafTwo {
+  position: absolute;
+  right: 0;
+  top: 5vh;
+  width: 35vh;
+  z-index: 1;
+}
+#orangeSlice {
+  position: absolute;
+  left: 38vw;
+  top: 21vh;
+  width: 28vh;
+}
+
+#sectionTwo {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 10vh;
+  background: linear-gradient(298deg, rgb(180, 84, 0) 0%, rgb(221, 74, 0) 100%) no-repeat;
+  display: flex;
+  justify-content: space-between;
+  padding: 20vh 10vw 10vh;
+}
+.blob {
+  flex: 45%;
+  align-self: flex-end;
+}
+.blob svg {
+  width: 200px;
+  height: 200px;
+}
+.text {
+  flex: 40%;
+  align-self: center;
+}
+
+#sectionThree {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  padding-top: 10vh;
+  background: linear-gradient(298deg, rgb(153, 71, 0) 0%, rgb(189, 63, 0) 100%) no-repeat;
+}
